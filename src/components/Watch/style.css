@@ -1,0 +1,121 @@
+.player-controls{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 70px;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+    
+    width: 640px;
+    height: 360px;
+    max-width: 100%;
+}
+.watch{
+    height: 95vh;
+}
+.episode{
+    width: 642px;
+    margin: 0 auto;
+    overflow-y: auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 8px;
+    max-width: 100%;
+    height: 220px;
+    margin-bottom: 30px;
+}
+.episode-current {
+    color: #fff;
+}
+.espisode-btn.active{
+    background: red;
+}
+.btn{
+    width: 43px;
+    height: 40px;
+    /* margin-left: 13px; */
+    margin-right: 10px;
+    margin-bottom: 11px;
+    outline: none;
+    background: #4172ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn-control{
+
+}
+.btn-control .next-btn{
+    background: #4172ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+
+    
+}
+.btn-control .prev-btn{
+    background: #4172ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    
+}
+.espisode-btn.skeleton{
+    background: #ddddddc7;
+}
+.next-prev-episode{
+
+}
+.prev-episode-btn{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 30px;
+    background: #4172ff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer
+}
+.next-episode-btn{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 30px;
+    background: #4172ff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer
+}
+.meme{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.meme-title{
+    color: #fff;
+}
+.meme1{
+    width: 400px;
+    max-width: 100%;
+    
+}
+
+.meme2{
+    width: 400px;
+    max-width: 100%;
+    margin-top:20px;
+}

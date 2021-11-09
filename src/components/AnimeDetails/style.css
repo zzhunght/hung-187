@@ -1,0 +1,83 @@
+.anime-detail{
+    height: auto;
+}
+.anime-details-bg{
+    height: 350px;
+    overflow: hidden
+}
+.bg-dt{
+   
+    height: 100%;
+    width: 100%;
+    filter: blur(15px);
+    overflow: hidden;
+    background-image: linear-gradient(
+        45deg, #dd5353, #d9a324)
+}
+.anime-detail-content{
+    display: flex;
+    padding-left: 10%;
+    position: relative;
+    transform: translateY(-20%);
+}
+.anime-details-img{
+
+}
+.anime-details-info{
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+    margin-left: 2%;
+}
+.watch-now{
+    display: block;
+    width: 135px;
+    height: 40px;
+    text-align: left;
+    background: #000;
+    line-height: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.des{
+
+}
+.title{
+    margin-top: 29px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.genre{
+    color: #aa9e9e;
+    font-size: 16px;
+}
+.descriptions{
+    width: 700px;
+    color: #c3c2c2;
+}
+.no-video {
+    width: 150px;
+    background: red;
+}
+.comment-section {
+    width: 500px;
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+}
+.ant-comment-content-detail {
+
+    color: #fff;
+    text-align: left;
+}
+span.ant-comment-content-author-name {
+    color: #f4c619;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ant-form-item-control-input-content textarea.ant-input {
+    max-width: 80%;
+    width: 500px !important;
+    display: block;
+}

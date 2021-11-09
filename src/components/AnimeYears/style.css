@@ -1,0 +1,15 @@
+
+.anime-year-label{
+    color: #fff;
+    width: 166px;
+    height: 40px;
+    line-height: 37px;
+    background: #d89313;
+    margin-bottom: 21px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
